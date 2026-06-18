@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git & GitHub Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">GitHub Guide</div>
+      <button id="themeButton" class="theme-button" type="button">テーマ切替</button>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Beginner Friendly</p>
+      <h1>GitとGitHubを<br />楽しく学ぼう</h1>
+      <p class="lead">
+        バージョン管理の基本から、リポジトリ作成、コミット、プッシュ、プルリクエストまでを
+        シンプルに理解するためのミニガイドです。
+      </p>
+      <a class="button" href="#steps">学習ステップを見る</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <h2>GitとGitHubの違い</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Git</h3>
+          <p>ファイルの変更履歴を記録するためのバージョン管理ツールです。</p>
+        </article>
+        <article class="card">
+          <h3>GitHub</h3>
+          <p>Gitで管理したプロジェクトをオンラインで共有・共同作業できるサービスです。</p>
+        </article>
+        <article class="card">
+          <h3>Repository</h3>
+          <p>プロジェクトのファイルと変更履歴をまとめて管理する場所です。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="steps" class="section steps">
+      <h2>基本の流れ</h2>
+      <ol class="timeline">
+        <li>
+          <span>1</span>
+          <div>
+            <h3>リポジトリを作る</h3>
+            <p>GitHubでプロジェクト用のリポジトリを作成します。</p>
+          </div>
+        </li>
+        <li>
+          <span>2</span>
+          <div>
+            <h3>ファイルを編集する</h3>
+            <p>HTML、CSS、JavaScriptなどのファイルを作成・編集します。</p>
+          </div>
+        </li>
+        <li>
+          <span>3</span>
+          <div>
+            <h3>コミットする</h3>
+            <p>変更内容にメッセージを付けて履歴として保存します。</p>
+          </div>
+        </li>
+        <li>
+          <span>4</span>
+          <div>
+            <h3>GitHubにプッシュする</h3>
+            <p>ローカルの変更をGitHub上のリポジトリに反映します。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section command-box">
+      <h2>よく使うコマンド</h2>
+      <div class="code-card">
+        <pre><code>git status
+git add .
+git commit -m "Add first website"
+git push origin main</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Git & GitHub Guide. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
